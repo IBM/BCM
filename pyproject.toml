@@ -1,0 +1,20 @@
+[project]
+name = "BCM"
+version = "0.1.0"
+description = "Code for reproducing BCM paper"
+authors = [
+    {name = "Tomoya Sakai", email = "Tomoya.Sakai2@ibm.com"},
+]
+dependencies = [
+    "numpy<2",
+    "scipy<2",
+    "torch==1.10.2",
+    "opencv-python==4.6.0.66",
+    "tqdm==4.64.1",
+    "scikit-learn-intelex==2023.2.1",
+    "setuptools>=75.5.0",
+    "pyyaml>=6.0.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "LICENSE"}
